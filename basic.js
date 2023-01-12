@@ -94,3 +94,51 @@ function testNotEqual(val) {
   }
   
   testNotEqual(10);
+
+  function testGreaterOrEqual(val) {
+    if (val >= 20 ) {  
+      return "20 or Over";
+    }
+  
+    if (val >=10) {  
+      return "10 or Over";
+    }
+  
+    return "Less than 10";
+  }
+  
+  testGreaterOrEqual(10);
+
+  const myArray = [50, 60, 70];
+const myData = myArray[0];
+
+
+const myArray = [18, 64, 99];
+
+myArray[0] = 45;
+
+const myArray = [];
+
+let i =5;
+while (i >= 0){
+myArray.push(i);
+i--;
+}
+-----------10---------------
+const myArray = [];
+for (let i=1; i < 6; i++){
+  myArray.push(i);
+}
+-----------------------11---------------
+
+const myArray = [];
+
+for (let i=9; i > 0; i -= 2){
+  myArray.push(i);
+}
+--------------12--------------
+const myArr = [2, 3, 4, 5, 6];
+let total = 0;
+for (let i = 0; i < myArr.length; i++) {
+  total += myArr[i];
+}
